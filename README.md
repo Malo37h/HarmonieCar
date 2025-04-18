@@ -35,3 +35,5 @@ Les autres nécessitent d'implémenter des rôles de modération et d'utilisateu
 Pour ces dernièrs être capble de suivre qui a été écrit et permettre la modifications pendant les 5 premières minutes.
 
 Autre fonctionnalité à ajouter, la possibilité de mettre des commentaires à chaque post du blog, dans l'ordre d'apparition.
+
+L'application est normalement protégée contre les injections SQL et les attaques Cross Site Scripting (XSS)

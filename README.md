@@ -18,14 +18,17 @@ Le projet que je présente est donc construit de cette manière:
   • Front / client : React 18 avec HTML5 & CSS3
   • Back / server : .Net Core 8, Entity Framework (EF)
 }
+
 Le tout généré par un Template Visual Studio 2022 et la génération d'un Certificat de sécurité (HTTPS).
 Cette génération sécurisée permet d'initialiser la communication API RESTFULL entre les deux composants.
 J'ai cependant dû rajouter des autorisations CORS par la suite pour l'utilisation de mes propres composants (et non celui par défaut).
 J'ai aussi généré les requêtes du CRUD via EF manipuler les données d'une table SQL.
 + l'EDK qui ouvre SwaggerUI à chaque lancement de l'application et tester les requêtes.
+  
 {
   • Base donnée : SQLserver (MSMMS), Entity Framework
 }
+
 Une seule table & contrôleurs pour la fonctionnalité "Blog" dans la base. Génération BDD First avec Entity.
 Seuls les requêtes GET et POST ont été implémentés.
 Les autres nécessitent d'implémenter des rôles de modération et d'utilisateurs.
